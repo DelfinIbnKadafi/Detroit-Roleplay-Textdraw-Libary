@@ -1,0 +1,33 @@
+new Text: LOGO_SERVER[3];
+
+LOGO_SERVER[0] = TextDrawCreate(297.000, 12.000, "DETROIT");
+TextDrawLetterSize(LOGO_SERVER[0], 0.358, 2.098);
+TextDrawTextSize(LOGO_SERVER[0], 34.000, 34.000);
+TextDrawAlignment(LOGO_SERVER[0], TEXT_DRAW_ALIGN_LEFT);
+TextDrawColour(LOGO_SERVER[0], -764862721);
+TextDrawSetShadow(LOGO_SERVER[0], 1);
+TextDrawSetOutline(LOGO_SERVER[0], 1);
+TextDrawBackgroundColour(LOGO_SERVER[0], 150);
+TextDrawFont(LOGO_SERVER[0], TEXT_DRAW_FONT_1);
+TextDrawSetProportional(LOGO_SERVER[0], true);
+
+LOGO_SERVER[1] = TextDrawCreate(297.000, 28.000, "ROLEPLAY");
+TextDrawLetterSize(LOGO_SERVER[1], 0.300, 1.500);
+TextDrawAlignment(LOGO_SERVER[1], TEXT_DRAW_ALIGN_LEFT);
+TextDrawColour(LOGO_SERVER[1], -1);
+TextDrawSetShadow(LOGO_SERVER[1], 1);
+TextDrawSetOutline(LOGO_SERVER[1], 1);
+TextDrawBackgroundColour(LOGO_SERVER[1], 150);
+TextDrawFont(LOGO_SERVER[1], TEXT_DRAW_FONT_1);
+TextDrawSetProportional(LOGO_SERVER[1], true);
+
+LOGO_SERVER[2] = TextDrawCreate(31.000, 434.000, "MIT LICENSE");
+TextDrawLetterSize(LOGO_SERVER[2], 0.300, 1.500);
+TextDrawAlignment(LOGO_SERVER[2], TEXT_DRAW_ALIGN_LEFT);
+TextDrawColour(LOGO_SERVER[2], -1);
+TextDrawSetShadow(LOGO_SERVER[2], 1);
+TextDrawSetOutline(LOGO_SERVER[2], 1);
+TextDrawBackgroundColour(LOGO_SERVER[2], 150);
+TextDrawFont(LOGO_SERVER[2], TEXT_DRAW_FONT_1);
+TextDrawSetProportional(LOGO_SERVER[2], true);
+

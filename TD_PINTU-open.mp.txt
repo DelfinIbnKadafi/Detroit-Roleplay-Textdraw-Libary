@@ -1,0 +1,22 @@
+new Text: TD_PINTU[2];
+
+TD_PINTU[0] = TextDrawCreate(216.000, 80.000, "Tekan tombol    untuk masuk/keluar pintu");
+TextDrawLetterSize(TD_PINTU[0], 0.359, 3.299);
+TextDrawAlignment(TD_PINTU[0], TEXT_DRAW_ALIGN_LEFT);
+TextDrawColour(TD_PINTU[0], -1);
+TextDrawSetShadow(TD_PINTU[0], 1);
+TextDrawSetOutline(TD_PINTU[0], 1);
+TextDrawBackgroundColour(TD_PINTU[0], 150);
+TextDrawFont(TD_PINTU[0], TEXT_DRAW_FONT_1);
+TextDrawSetProportional(TD_PINTU[0], true);
+
+TD_PINTU[1] = TextDrawCreate(291.000, 81.000, "F");
+TextDrawLetterSize(TD_PINTU[1], 0.359, 3.299);
+TextDrawAlignment(TD_PINTU[1], TEXT_DRAW_ALIGN_LEFT);
+TextDrawColour(TD_PINTU[1], -16776961);
+TextDrawSetShadow(TD_PINTU[1], 1);
+TextDrawSetOutline(TD_PINTU[1], 1);
+TextDrawBackgroundColour(TD_PINTU[1], 255);
+TextDrawFont(TD_PINTU[1], TEXT_DRAW_FONT_1);
+TextDrawSetProportional(TD_PINTU[1], true);
+
